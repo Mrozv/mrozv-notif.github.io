@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(210, 60%, 98%);
+}
+body a {
+  text-decoration: none;
+  font-weight: 800;
+  color: black;
+}
+body a:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.blue-color {
+  color: hsl(219, 85%, 26%);
+}
+
+.gray-color {
+  color: hsl(219, 12%, 42%);
+}
+
+.unread {
+  background-color: hsl(210, 60%, 98%);
+}
+
+main {
+  width: 42vw;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 10px;
+}
+main header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+main header .noti {
+  font-weight: 800;
+  font-size: 16px;
+  display: flex;
+}
+main header .noti .count {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  margin: 0 10px;
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: hsl(219, 85%, 26%);
+}
+main header .mark {
+  font-size: 14px;
+  background: none;
+  color: hsl(219, 12%, 42%);
+  border: none;
+  cursor: pointer;
+}
+main header .mark:hover {
+  color: hsl(219, 85%, 26%);
+}
+main .content {
+  margin-top: 30px;
+}
+main .content .card {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  width: 100%;
+  border-radius: 5px;
+}
+main .content .card .card-body {
+  margin: 10px 0;
+  width: 100%;
+}
+main .content .card .chess img:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+main .content .card .chess img {
+  border-radius: 8px;
+}
+main .content .card img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+main .content .card .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .content .card .info .text {
+  font-size: 14px;
+}
+main .content .card .info .text .com .name {
+  font-weight: 800;
+}
+main .content .card .info .text .com .fa-circle {
+  font-size: 8px;
+}
+main .content .card .info .text .com i {
+  position: relative;
+  bottom: 2px;
+  margin-left: 5px;
+}
+main .content .card .info .time {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 12px;
+  color: hsl(219, 14%, 63%);
+}
+main .content .card .comment {
+  border: 1px solid hsl(205, 33%, 90%);
+  color: hsl(219, 12%, 42%);
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+  margin-right: 20px;
+  font-size: 14px;
+}
+main .content .card .comment:hover {
+  background-color: hsl(211, 68%, 94%);
+}
+main .content .notifications li {
+  list-style: none;
+}
+
+@media (max-width: 992px) {
+  main {
+    width: 60vw;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    width: 75vw;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    overflow: scroll;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  body main {
+    height: 100%;
+    width: 100vw;
+  }
+}
+@media (max-width: 375px) {
+  body {
+    overflow: scroll;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  body main {
+    height: 100%;
+    width: 100vw;
+    margin-bottom: 20px;
+  }
+  body main .content {
+    margin-top: 30px;
+  }
+  body main .content img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */

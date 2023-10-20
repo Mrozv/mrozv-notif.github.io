@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8d4cd6574c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Frontend Mentor | Notifications page</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="noti">
+          Notifications
+          <div class="count">0</div>
+        </div>
+        <button class="mark">Mark all as read</button>
+      </header>
+      <div class="content">
+        <div class="card unread">
+          <img src="/assets/images/avatar-mark-webber.webp" alt="" />
+          <div class="info">
+            <div class="text">
+              <div class="com">
+                <span class="name"><a href="">Mark Webber</a></span> reacted to
+                your recent post
+                <a class="gray-color" href="">My first tournament today!</a>
+                <i class="fa-solid fa-circle" style="color: #ff0000"></i>
+              </div>
+            </div>
+            <div class="time">1m ago</div>
+          </div>
+        </div>
+        <div class="card unread">
+          <img src="/assets/images//avatar-angela-gray.webp" alt="" />
+          <div class="info">
+            <div class="text">
+              <div class="com">
+                <span class="name"><a href="">Angela Gray</a></span> followed
+                you
+                <i class="fa-solid fa-circle" style="color: #ff0000"></i>
+              </div>
+            </div>
+            <div class="time">5m ago</div>
+          </div>
+        </div>
+        <div class="card unread">
+          <img src="/assets/images/avatar-jacob-thompson.webp" alt="" />
+          <div class="info">
+            <div class="text">
+              <div class="com">
+                <span class="name"><a href="">Jacob Thompson</a></span> has
+                joined your group <a class="blue-color" href="">Chess Club</a>
+                <i class="fa-solid fa-circle" style="color: #ff0000"></i>
+              </div>
+            </div>
+            <div class="time">1 day ago</div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/assets/images/avatar-rizky-hasanuddin.webp" alt="" />
+          <div class="card-body">
+            <div class="info">
+              <div class="text">
+                <span class="name"><a href="">Rizky Hasanuddin</a></span> sent
+                you a private message
+              </div>
+              <div class="time">5 days ago</div>
+            </div>
+            <div class="comment">
+              Hello, thanks for setting up the Chess Club. I've been a member
+              for a few weeks now and I'm already having lots of fun and
+              improving my game.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/assets/images/avatar-kimberly-smith.webp" alt="" />
+          <div class="card-body">
+            <div class="info">
+              <div class="text">
+                <span class="name"><a href="">Kimberly Smith</a></span>
+                commented on your picture
+              </div>
+              <div class="time">1 week ago</div>
+            </div>
+          </div>
+          <div class="chess">
+            <img src="/assets/images/image-chess.webp" alt="" />
+          </div>
+        </div>
+        <div class="card">
+          <img src="/assets/images/avatar-nathan-peterson.webp" alt="" />
+          <div class="info">
+            <div class="text">
+              <span class="name"><a href="">Nathan Peterson </a></span> reacted
+              to your recent post
+              <a class="gray-color" href=""
+                >5 end-game strategies to increase your win rate</a
+              >
+            </div>
+            <div class="time">2 weeks ago</div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/assets/images/avatar-anna-kim.webp" alt="" />
+          <div class="info">
+            <div class="text">
+              <span class="name"><a href="">Anna Kim</a></span> left the group
+              <a class="blue-color" href="">Chess Club</a>
+            </div>
+            <div class="time">2 weeks ago</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
